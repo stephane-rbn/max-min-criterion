@@ -13,7 +13,7 @@ Test(minFunctionTests, mininum_should_be_0) {
 }
 
 Test(maxFunctionTests, maximum_should_be_566) {
-    int array[8] = {4,6,2,1,9,63,-134,566};
+    int array[8] = {4, 6, 2, 1, 9, 63, -134, 566};
     cr_assert_eq(max(array, 8), 566);
 }
 
