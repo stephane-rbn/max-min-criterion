@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.14.3)
 
 # Use C11 standard
-set(CMAKE_C_STANDARD 99)
+set(CMAKE_C_STANDARD 90)
 
 # Use warning flags
 set(CMAKE_C_FLAGS "-pedantic-errors -Wall -Wextra -Werror")
